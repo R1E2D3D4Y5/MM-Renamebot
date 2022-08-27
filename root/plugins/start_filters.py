@@ -22,7 +22,7 @@ async def start_msg(c,m):
             reply_markup=InlineKeyboardMarkup([[
                InlineKeyboardButton(
                "Owner ", 
-               url=f"https://t.me/{Config.OWNER_USERNAME}")
+               url=f"https://t.me/anamikaupdates")
              ]]) , 
             disable_web_page_preview=True
       ) 
